@@ -1,6 +1,6 @@
 var Elixir = require('laravel-elixir');
 
-Elixir.webpack.addLoader({
+Elixir.config.js.webpack.loaders.push({
     test: /\.vue$/,
     loader: 'vue'
 });
