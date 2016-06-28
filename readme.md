@@ -17,3 +17,5 @@ elixir(function(mix) {
     mix.scripts('main.js'); // resources/assets/js/main.js
 });
 ```
+
+If you need help, [here's a barebones starter example](https://github.com/JeffreyWay/Laravel-Elixir-v6-Vue-example).
