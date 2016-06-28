@@ -1,5 +1,7 @@
 # Laravel Elixir Vue Integration
 
+This package provides support for compiling `.vue` files in your Laravel Elixir 6 projects. Please note that, if using Laravel Elixir 5 or below, you don't want this package.
+
 ## Step 1: Install
 
 ```
