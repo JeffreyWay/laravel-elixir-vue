@@ -5,6 +5,7 @@ Elixir.config.js.webpack.loaders.push({
     loader: 'vue'
 });
 
-Elixir.config.js.webpack.babel.presets.push(
-    'es2015-webpack'
-);
+Elixir.config.js.webpack.babel = {
+    presets: ['es2015-webpack'],
+    plugins: ['add-module-exports', 'transform-runtime']
+};
