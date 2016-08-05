@@ -7,7 +7,7 @@ Elixir.ready(() => {
     });
 
     Elixir.config.js.webpack.babel = {
-        presets: ['es2015-webpack'],
+        presets: ['es2015'],
         plugins: ['add-module-exports', 'transform-runtime']
     };
 });
