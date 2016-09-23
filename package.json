@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-vue",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Laravel Elixir Vue Integration",
   "main": "main.js",
   "keywords": [
